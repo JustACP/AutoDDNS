@@ -1,0 +1,19 @@
+{
+   "log_path": "",
+   "tick_duration": 10,
+   "platforms": [
+     {
+       "cloud": "aliyun",
+       "access_key_id": "key",
+       "access_key_secret": "secret",
+       "endpoint": "",
+       "dns_record": [
+         {
+           "domain": "a.b.com",
+           "Type": "ipv6",
+           "bind_mac": ""
+         }
+       ]
+     }
+   ]
+ }

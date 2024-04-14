@@ -1,0 +1,14 @@
+builds:
+  - id: AutoDDNS
+    main: ./cmd/
+    goos:
+      - linux
+      - windows
+      - darwin
+    goarch:
+      - amd64
+      - arm
+      - arm64
+    env:
+        - CGO_ENABLED=0
+
